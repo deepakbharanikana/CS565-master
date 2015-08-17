@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <!--Tasks Table -->
+    <Tasks  TaskName="Cleaning" TaskPoints="15" GroupName="GroupA"/>
+    <Tasks  TaskName="Washing dishes" TaskPoints="40" GroupName="GroupA"/>
+    <Tasks  TaskName="Cleaning" TaskPoints="20" GroupName="GroupB"/>
+    <Tasks  TaskName="Cooking" TaskPoints="30" GroupName="GroupB"/>
+    
+</dataset>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <EditText
+        android:id="@+id/textField_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/textField_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textField_email"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+    
+    <RelativeLayout
+        android:id="@+id/view_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textField_Password"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            
+            android:background="@drawable/bg_button_rounded"
+            android:textColor="@color/white"
+            android:text="@string/btn_login" />
+
+        <Button
+            android:id="@+id/button_signUp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_rounded"
+            android:layout_toRightOf="@+id/button_login"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="@string/btn_signUp" />
+    </RelativeLayout>
+    
+    <TextView android:id="@+id/label_forgotPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/view_btn"
+        android:text="@string/text_forgotPass"/>
+
+</RelativeLayout>

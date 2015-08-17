@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShareTask</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_addGroup">Add Group</string>
+    <string name="action_setDate">Set Date</string>
+    
+    <string name="group_heading">Your Groups</string>
+    <string name="group_assignedTasks">Task Assigned</string>
+    
+    <string name="btn_login">Login</string>
+    <string name="btn_signUp">SignUp</string>
+    <string name="hint_email">Enter Your Email</string>
+    <string name="hint_firstName">First Name</string>
+    <string name="hint_lastName">Last Name</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_cnfrmPassword">Confirm Password</string>
+    <string name="text_forgotPass">Forgot your Password?</string>
+    <string name="text_groupsFooter">Add a New Group</string>
+    <string name="text_personsHeader">People in the Group</string>
+	<string name="btn_createTask">Create a New Task</string>
+	<string name="btn_addPerson">Add a New Person</string>
+	<string name="btn_viewTasksAssigned">View Tasks Assigned</string>
+	<string name="btn_viewPendingPoints">View Pending Points</string>
+	<string name="choose_task">Choose a Task</string>
+	<string name="text_assignTask">Assign a Task to %s</string>
+	<string name="btn_assignTask">Assign</string>
+	
+	<string name="alert_groupTitle">Enter Group Name</string>
+	<string name="alert_personTitle">Enter Person Name</string>
+	<string name="alert_taskTitle">Enter Task Name</string>
+	<string name="alert_createBtn">Create</string>
+	<string name="alert_cancelBtn">Cancel</string>
+	
+	<string name="group_added">Group added successfully!</string>
+	<string name="person_added">Person added successfully!</string>
+	<string name="task_added">Task added successfully!</string>
+	<string name="task_assigned">Task assigned successfully!</string>
+	
+	<string name="err_valid_email">Please enter valid a email</string>
+	<string name="err_empty_credentials">Please enter the credentials</string>
+	<string name="err_empty_fields">Please enter all fields</string>
+	
+	<string name="err_occured">Error Occurred!</string>
+	<string name="err_resource_not_found">Requested resource not found</string>
+	<string name="err_server_side">Something went wrong at server end</string>
+	
+	<string name="pending_points_text">Current Pending Points %s</string>
+	
+</resources>

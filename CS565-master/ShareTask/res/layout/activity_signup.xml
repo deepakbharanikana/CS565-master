@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <EditText
+        android:id="@+id/textField_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email"
+        android:ems="10" >
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/textField_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="@string/hint_firstName"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/textField_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="@string/hint_lastName"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/textField_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/textField_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hint_cnfrmPassword"
+        android:inputType="textPassword"
+        android:ems="10" />
+
+     <Button
+        android:id="@+id/button_signUp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/bg_button_rounded"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"    
+        android:textColor="@color/white"   
+        android:layout_gravity="center_horizontal" 
+        android:text="@string/btn_signUp" />
+
+</LinearLayout>

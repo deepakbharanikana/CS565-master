@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    android:orientation="vertical" >
+    
+     <Button
+            android:id="@+id/button_createTask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_gradient_end"
+            android:textColor="@color/white"
+            android:text="@string/btn_createTask" />
+     
+     <Button
+            android:id="@+id/button_addPersons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bg_gradient_end"
+            android:textColor="@color/white"
+            android:text="@string/btn_addPerson" />
+     
+     <Button
+            android:id="@+id/button_viewTasksAssigned"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bg_gradient_end"
+            android:textColor="@color/white"
+            android:text="@string/btn_viewTasksAssigned" />
+     
+      <Button
+            android:id="@+id/button_viewPendingPoints"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/bg_gradient_end"
+            android:textColor="@color/white"
+            android:text="@string/btn_viewPendingPoints" />
+     
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:textSize="20sp"
+         android:textColor="@color/bg_gradient_end"
+         android:text="@string/text_personsHeader"/>
+
+    <ListView
+        android:id="@+id/list_addPeople"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/bg_gradient_end" >
+    </ListView>
+
+</LinearLayout>
